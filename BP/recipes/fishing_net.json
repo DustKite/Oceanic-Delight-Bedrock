@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oceanic_delight:fishing_net"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " aa",
+      " ba",
+      "c  "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:string"
+      },
+      "b": {
+        "item": "minecraft:prismarine_crystals"
+      },
+      "c": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": [
+      {
+        "item": "oceanic_delight:fishing_net",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oceanic_delight:caesar_salad_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "tag": "farmersdelight:is_cabbage"
+      },
+      "B": {
+        "item": "minecraft:cooked_chicken"
+      },
+      "C": {
+        "tag": "farmersdelight:is_milk"
+      },
+      "D": {
+        "item": "minecraft:bread"
+      },
+      "E": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": [
+      {
+        "item": "oceanic_delight:caesar_salad",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ]
+  }
+}

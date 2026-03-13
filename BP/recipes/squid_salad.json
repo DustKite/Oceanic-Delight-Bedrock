@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oceanic_delight:squid_salad_1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "D"
+    ],
+    "key": {
+      "A": {
+        "item": "oceanic_delight:sea_grape"
+      },
+      "B": {
+        "tag": "farmersdelight:raw_calamari"
+      },
+      "C": {
+        "tag": "farmersdelight:is_cabbage"
+      },
+      "D": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": [
+      {
+        "item": "oceanic_delight:squid_salad",
+        "count": 1
+      }
+    ]
+  }
+}

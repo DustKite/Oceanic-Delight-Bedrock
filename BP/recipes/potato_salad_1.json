@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oceanic_delight:potato_salad_1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:potato"
+      },
+      "B": {
+        "item": "minecraft:potato"
+      },
+      "C": {
+        "item": "oceanic_delight:sea_pickle_slices"
+      },
+      "D": {
+        "tag": "farmersdelight:is_cabbage"
+      },
+      "E": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": [
+      {
+        "item": "oceanic_delight:potato_salad",
+        "count": 1
+      }
+    ]
+  }
+}

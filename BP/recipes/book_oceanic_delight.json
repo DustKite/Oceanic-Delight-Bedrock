@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oceanic_delight:book_oceanic_delight"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:book"
+      },
+      "B": {
+        "item": "minecraft:pufferfish"
+      }
+    },
+    "result": [
+      {
+        "item": "oceanic_delight:book_oceanic_delight",
+        "count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "sponge_cake"
+        }
+      },
+      "minecraft:block_placer": {
+        "block": "oceanic_delight:sponge_cake",
+        "replace_block_item": true
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:compostable": {
+        "composting_chance": 100
+      }
+    },
+    "description": {
+      "identifier": "oceanic_delight:sponge_cake",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmersdelight:itemGroup.name.miscFood"
+      }
+    }
+  }
+}

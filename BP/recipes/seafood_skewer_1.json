@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oceanic_delight:seafood_skewer_1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "abc",
+      "d  "
+    ],
+    "key": {
+      "a": {
+        "tag": "farmersdelight:cooked_shrimp"
+      },
+      "b": {
+        "tag": "farmersdelight:cooked_calamari"
+      },
+      "c": {
+        "item": "oceanic_delight:sea_pickle_slices"
+      },
+      "d": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": [
+      {
+        "item": "oceanic_delight:seafood_skewer",
+        "count": 1
+      }
+    ]
+  }
+}

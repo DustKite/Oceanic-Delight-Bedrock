@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oceanic_delight:sponge_cake_from_slices"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aa",
+      "aa"
+    ],
+    "key": {
+      "a": {
+        "item": "oceanic_delight:sponge_cake_slice"
+      }
+    },
+    "result": [
+      {
+        "item": "oceanic_delight:sponge_cake",
+        "count": 1
+      }
+    ]
+  }
+}

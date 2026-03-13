@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oceanic_delight:squid_and_pickles_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DE"
+    ],
+    "key": {
+      "A": {
+        "tag": "farmersdelight:cooked_calamari"
+      },
+      "B": {
+        "item": "minecraft:baked_potato"
+      },
+      "C": {
+        "item": "minecraft:sea_pickle"
+      },
+      "D": {
+        "tag": "farmersdelight:is_onion"
+      },
+      "E": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": [
+      {
+        "item": "oceanic_delight:squid_and_pickles",
+        "count": 1
+      }
+    ]
+  }
+}

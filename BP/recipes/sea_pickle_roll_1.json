@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oceanic_delight:sea_pickle_roll_1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "RXR",
+      "#A#"
+    ],
+    "key": {
+      "#": {
+        "item": "oceanic_delight:sea_pickle_slices"
+      },
+      "A": {
+        "item": "minecraft:dried_kelp"
+      },
+      "R": {
+        "item": "farmersdelight:cooked_rice"
+      },
+      "X": {
+        "tag": "farmersdelight:raw_calamari"
+      }
+    },
+    "result": [
+      {
+        "item": "oceanic_delight:sea_pickle_roll",
+        "count": 1
+      }
+    ]
+  }
+}

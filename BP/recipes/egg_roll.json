@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oceanic_delight:egg_roll"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "D"
+    ],
+    "key": {
+      "A": {
+        "tag": "farmersdelight:is_cooked_egg"
+      },
+      "B": {
+        "tag": "farmersdelight:is_cooked_egg"
+      },
+      "C": {
+        "item": "farmersdelight:cooked_rice"
+      },
+      "D": {
+        "item": "minecraft:dried_kelp"
+      }
+    },
+    "result": [
+      {
+        "item": "oceanic_delight:egg_roll",
+        "count": 2
+      }
+    ]
+  }
+}

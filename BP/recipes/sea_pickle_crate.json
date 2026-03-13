@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oceanic_delight:sea_pickle_crate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "aaa",
+      "aaa"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:sea_pickle"
+      }
+    },
+    "result": [
+      {
+        "item": "oceanic_delight:sea_pickle_crate",
+        "count": 1
+      }
+    ]
+  }
+}

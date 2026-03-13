@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "oceanic_delight:shrimp_roll_1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "D"
+    ],
+    "key": {
+      "A": {
+        "tag": "farmersdelight:raw_shrimp"
+      },
+      "B": {
+        "tag": "farmersdelight:raw_shrimp"
+      },
+      "C": {
+        "item": "farmersdelight:cooked_rice"
+      },
+      "D": {
+        "item": "minecraft:dried_kelp"
+      }
+    },
+    "result": [
+      {
+        "item": "oceanic_delight:shrimp_roll",
+        "count": 2
+      }
+    ]
+  }
+}
