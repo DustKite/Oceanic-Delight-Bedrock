@@ -1,0 +1,43 @@
+{
+    "format_version": "1.20.20",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "oceanic_delight:wild_sea_grape_feature_rules",
+            "places_feature": "oceanic_delight:wild_sea_grape_aggregate_feature"
+        },
+        "conditions": {
+            "placement_pass": "final_pass",
+            "minecraft:biome_filter": {
+                "all_of": [
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "==",
+                        "value": "ocean"
+                    },
+                    {
+                        "any_of": [
+                            {
+                                "test": "has_biome_tag",
+                                "operator": "==",
+                                "value": "warm"
+                            },
+                            {
+                                "test": "has_biome_tag",
+                                "operator": "==",
+                                "value": "lukewarm"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "distribution": {
+            "iterations": 1,
+            "scatter_chance": 4.0,
+            "coordinate_eval_order": "xzy",
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    }
+}

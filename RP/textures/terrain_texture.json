@@ -1,0 +1,93 @@
+{
+  "texture_data": {
+    "oceanic_delight:stuffed_pufferfishh_particles": {
+      "textures": [
+        {
+          "path": "textures/blocks/stuffed_pufferfish_particles"
+        }
+      ]
+    },
+    "oceanic_delight:paella_top": {
+      "textures": [
+        {
+          "path": "textures/blocks/paella_top"
+        }
+      ]
+    },
+    "crate_bottom": {
+      "textures": "textures/blocks/crate_bottom"
+    },
+    "paella_bottom": {
+      "textures": "textures/blocks/paella_bottom"
+    },
+    "paella_food": {
+      "textures": "textures/blocks/paella_food"
+    },
+    "paella_food_1": {
+      "textures": "textures/blocks/paella_food_1"
+    },
+    "paella_food_2": {
+      "textures": "textures/blocks/paella_food_2"
+    },
+    "paella_rice": {
+      "textures": "textures/blocks/paella_rice"
+    },
+    "paella_side": {
+      "textures": "textures/blocks/paella_side"
+    },
+    "paella_top": {
+      "textures": "textures/blocks/paella_top"
+    },
+    "paella_top_empty": {
+      "textures": "textures/blocks/paella_top_empty"
+    },
+    "sea_grape_bulb": {
+      "textures": "textures/blocks/sea_grape_bulb"
+    },
+    "sea_grape_crate_side": {
+      "textures": "textures/blocks/sea_grape_crate_side"
+    },
+    "sea_grape_crate_top": {
+      "textures": "textures/blocks/sea_grape_crate_top"
+    },
+    "sea_grape_plant": {
+      "textures": "textures/blocks/sea_grape_plant"
+    },
+    "sea_grape_plant_upper": {
+      "textures": "textures/blocks/sea_grape_plant_upper"
+    },
+    "sea_pickle_crate_side": {
+      "textures": "textures/blocks/sea_pickle_crate_side"
+    },
+    "sea_pickle_crate_top": {
+      "textures": "textures/blocks/sea_pickle_crate_top"
+    },
+    "sponge_cake_bottom": {
+      "textures": "textures/blocks/sponge_cake_bottom"
+    },
+    "sponge_cake_inner": {
+      "textures": "textures/blocks/sponge_cake_inner"
+    },
+    "sponge_cake_side": {
+      "textures": "textures/blocks/sponge_cake_side"
+    },
+    "sponge_cake_top": {
+      "textures": "textures/blocks/sponge_cake_top"
+    },
+    "stuffed_pufferfish": {
+      "textures": "textures/blocks/stuffed_pufferfish"
+    },
+    "stuffed_pufferfish_stage1": {
+      "textures": "textures/blocks/stuffed_pufferfish_stage1"
+    },
+    "stuffed_pufferfish_stage2": {
+      "textures": "textures/blocks/stuffed_pufferfish_stage2"
+    },
+    "stuffed_pufferfish_stage3": {
+      "textures": "textures/blocks/stuffed_pufferfish_stage3"
+    },
+    "wild_sea_grape": {
+      "textures": "textures/blocks/wild_sea_grape"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:aggregate_feature": {
+        "description": {
+            "identifier": "oceanic_delight:wild_sea_grape_aggregate_feature"
+        },
+        "features": [
+            "oceanic_delight:scatter_wild_sea_grape_feature",
+            "oceanic_delight:scatter_seagrass_feature",
+            "oceanic_delight:scatter_clay_feature"
+        ]
+    }
+}

@@ -1,0 +1,2 @@
+scriptevent farmersdelight:cook {"id":"#farmersdelight:raw_calamari","result":"oceanic_delight:grilled_squid_tentacles","time":200,"exp":0.35}
+scoreboard objectives remove farmersdelight_oceanic_delight_cook

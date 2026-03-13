@@ -1,0 +1,37 @@
+{
+    "oceanic_delight:sea_pickle_crate": {
+        "sound": "wood"
+    },
+    "oceanic_delight:sea_grape_crate": {
+        "sound": "wood"
+    },
+    "oceanic_delight:sponge_cake": {
+        "sound": "cloth"
+    },
+    "oceanic_delight:paella_plate": {
+        "sound": "lantern"
+    },
+    "oceanic_delight:stuffed_pufferfish": {
+        "sound": "cloth"
+    },
+    "oceanic_delight:wild_sea_grape": {
+        "sound": "grass"
+    },
+    "oceanic_delight:sea_grape_plant_bottom": {
+        "sound": "grass"
+    },
+    "oceanic_delight:sea_grape_plant_middle": {
+        "sound": "grass"
+    },
+    "oceanic_delight:sea_grape_plant_upper": {
+        "sound": "grass"
+    },
+    "oceanic_delight:sea_grape_fruit": {
+        "sound": "grass"
+    },
+    "format_version": [
+        1,
+        1,
+        0
+    ]
+}

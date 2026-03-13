@@ -1,0 +1,138 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "ancient_fish_eggs": {
+      "textures": "textures/items/ancient_fish_eggs"
+    },
+    "caesar_salad": {
+      "textures": "textures/items/caesar_salad"
+    },
+    "caviar_toast": {
+      "textures": "textures/items/caviar_toast"
+    },
+    "egg_roll": {
+      "textures": "textures/items/egg_roll"
+    },
+    "elder_guardian_eye": {
+      "textures": "textures/items/elder_guardian_eye"
+    },
+    "fishing_net": {
+      "textures": "textures/items/fishing_net"
+    },
+    "fish_egg_noodle_soup": {
+      "textures": "textures/items/fish_egg_noodle_soup"
+    },
+    "fish_egg_roll": {
+      "textures": "textures/items/fish_egg_roll"
+    },
+    "fish_egg_roll_slice": {
+      "textures": "textures/items/fish_egg_roll_slice"
+    },
+    "fried_shrimp": {
+      "textures": "textures/items/fried_shrimp"
+    },
+    "globular_rice": {
+      "textures": "textures/items/globular_rice"
+    },
+    "glow_squid_stew": {
+      "textures": "textures/items/glow_squid_stew"
+    },
+    "glow_squid_tentacles": {
+      "textures": "textures/items/glow_squid_tentacles"
+    },
+    "grilled_squid_tentacles": {
+      "textures": "textures/items/grilled_squid_tentacles"
+    },
+    "nautilus_juice": {
+      "textures": "textures/items/nautilus_juice"
+    },
+    "pasta_with_eye_balls": {
+      "textures": "textures/items/pasta_with_eye_balls"
+    },
+    "plate_of_paella": {
+      "textures": "textures/items/plate_of_paella"
+    },
+    "paella_plate": {
+      "textures": "textures/items/paella_plate"
+    },
+    "plate_of_stuffed_pufferfish": {
+      "textures": "textures/items/plate_of_stuffed_pufferfish"
+    },
+    "stuffed_pufferfish": {
+      "textures": "textures/items/stuffed_pufferfish"
+    },
+    "potato_salad": {
+      "textures": "textures/items/potato_salad"
+    },
+    "salmon_eggs": {
+      "textures": "textures/items/salmon_eggs"
+    },
+    "seafood_skewer": {
+      "textures": "textures/items/seafood_skewer"
+    },
+    "sea_grape": {
+      "textures": "textures/items/sea_grape"
+    },
+    "sea_grape_juice": {
+      "textures": "textures/items/sea_grape_juice"
+    },
+    "sea_pickle_roll": {
+      "textures": "textures/items/sea_pickle_roll"
+    },
+    "sea_pickle_roll_slice": {
+      "textures": "textures/items/sea_pickle_roll_slice"
+    },
+    "sea_pickle_slices": {
+      "textures": "textures/items/sea_pickle_slices"
+    },
+    "sea_salad": {
+      "textures": "textures/items/sea_salad"
+    },
+    "shrimp": {
+      "textures": "textures/items/shrimp"
+    },
+    "shrimp_chips": {
+      "textures": "textures/items/shrimp_chips"
+    },
+    "shrimp_rice": {
+      "textures": "textures/items/shrimp_rice"
+    },
+    "shrimp_roll": {
+      "textures": "textures/items/shrimp_roll"
+    },
+    "shrimp_slices": {
+      "textures": "textures/items/shrimp_slices"
+    },
+    "shrimp_stew": {
+      "textures": "textures/items/shrimp_stew"
+    },
+    "sponge_cake_slice": {
+      "textures": "textures/items/sponge_cake_slice"
+    },
+    "sponge_cake": {
+      "textures": "textures/items/sponge_cake"
+    },
+    "squid_and_pickles": {
+      "textures": "textures/items/squid_and_pickles"
+    },
+    "squid_salad": {
+      "textures": "textures/items/squid_salad"
+    },
+    "squid_tentacles": {
+      "textures": "textures/items/squid_tentacles"
+    },
+    "steamed_beef": {
+      "textures": "textures/items/steamed_beef"
+    },
+    "takoyaki": {
+      "textures": "textures/items/takoyaki"
+    },
+    "wild_sea_grape": {
+      "textures": "textures/items/wild_sea_grape"
+    },
+    "book_oceanic_delight": {
+      "textures": "textures/items/book_oceanic_delight"
+    }
+  }
+}

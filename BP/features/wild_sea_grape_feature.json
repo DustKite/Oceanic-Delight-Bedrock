@@ -1,0 +1,21 @@
+{
+    "format_version": "1.20.20",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "oceanic_delight:wild_sea_grape_feature"
+        },
+        "places_block": "oceanic_delight:wild_sea_grape",
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": false,
+        "may_attach_to": {
+            "bottom": [
+                {
+                    "name": "minecraft:sand"
+                }
+            ]
+        },
+        "may_replace": [
+            "minecraft:water"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "format_version": "1.20.20",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "oceanic_delight:clay_feature"
+        },
+        "places_block": "minecraft:clay",
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": false,
+        "may_attach_to": {
+            "bottom": [
+                {
+                    "name": "minecraft:sand"
+                },
+                {
+                    "name": "minecraft:dirt"
+                },
+                {
+                    "name": "minecraft:gravel"
+                },
+                {
+                    "name": "minecraft:stone"
+                },
+                {
+                    "name": "minecraft:granite"
+                },
+                {
+                    "name": "minecraft:diorite"
+                },
+                {
+                    "name": "minecraft:andesite"
+                }
+            ]
+        },
+        "may_replace": [
+            "minecraft:sand"
+        ]
+    }
+}

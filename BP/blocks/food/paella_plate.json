@@ -1,0 +1,354 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "oceanic_delight:paella_plate",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "farmersdelight:food_block_stage": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.paella_plate",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "paella_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "food": {
+                            "texture": "paella_food",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "side": {
+                            "texture": "paella_side",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "top": {
+                            "texture": "paella_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "bottom": {
+                            "texture": "paella_bottom",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.paella_plate_stage1",
+                    "minecraft:loot": "loot_tables/farmersdelight/empty.json",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "paella_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "food": {
+                            "texture": "paella_food_1",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "side": {
+                            "texture": "paella_side",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "top": {
+                            "texture": "paella_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "bottom": {
+                            "texture": "paella_bottom",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.paella_plate_stage2",
+                    "minecraft:loot": "loot_tables/farmersdelight/empty.json",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "paella_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "food": {
+                            "texture": "paella_food_2",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "side": {
+                            "texture": "paella_side",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "top": {
+                            "texture": "paella_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "bottom": {
+                            "texture": "paella_bottom",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 3",
+                "components": {
+                    "minecraft:geometry": "geometry.empty_paella_plate",
+                    "minecraft:loot": "loot_tables/farmersdelight/empty.json",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "paella_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "food": {
+                            "texture": "paella_top_empty",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "side": {
+                            "texture": "paella_side",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "top": {
+                            "texture": "paella_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "bottom": {
+                            "texture": "paella_bottom",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 4",
+                "components": {
+                    "minecraft:geometry": "geometry.paella_plate_stage3",
+                    "minecraft:loot": "loot_tables/farmersdelight/empty.json",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "paella_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "food": {
+                            "texture": "paella_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "side": {
+                            "texture": "paella_side",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "top": {
+                            "texture": "paella_top",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        },
+                        "bottom": {
+                            "texture": "paella_bottom",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "minecraft:geometry": "geometry.paella_plate",
+            "oceanic_delight:blockfood": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5
+            },
+            "minecraft:destruction_particles": {
+                "texture": "oceanic_delight:paella_top"
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.5
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true,
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "paella_top",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "food": {
+                    "texture": "paella_food",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "side": {
+                    "texture": "paella_side",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "top": {
+                    "texture": "paella_top",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "bottom": {
+                    "texture": "paella_bottom",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -7.0,
+                    0.0,
+                    -7.0
+                ],
+                "size": [
+                    14.0,
+                    4.0,
+                    14.0
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7.0,
+                    0.0,
+                    -7.0
+                ],
+                "size": [
+                    14.0,
+                    4.0,
+                    14.0
+                ]
+            }
+        }
+    }
+}

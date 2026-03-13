@@ -1,0 +1,66 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "name": "pack.name",
+    "uuid": "5561d7a5-98b8-4137-a232-059e04523790",
+    "version": [
+      5,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "c0ff680e-87c3-4f05-b340-c5cf3d0a1ed9",
+      "version": [
+        5,
+        0,
+        1
+      ]
+    },
+    {
+      "description": "Oceanic Delight-Script",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "1562b0d3-cbec-4b17-810a-9dc4a4f14f98",
+      "version": [
+        5,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Dust_Kite"
+    ],
+    "license": "AAR",
+    "product_type": "addon"
+  },
+  "dependencies": [
+    {
+      "uuid": "5f2ed612-ad6e-4bfb-83db-5fcb1dc3afca",
+      "version": [
+        5,
+        0,
+        1
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "nutrition": 11,
+        "saturation_modifier": 0.7,
+        "using_converts_to": "stick"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:icon": {
+        "textures": {
+          "default": "seafood_skewer"
+        }
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      }
+    },
+    "description": {
+      "identifier": "oceanic_delight:seafood_skewer",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmersdelight:itemGroup.name.miscFood"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "oceanic_delight:wild_sea_grape",
+            "menu_category": {
+                "category": "none"
+            }
+        },
+        "components": {
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "oceanic_delight:wild_sea_grape": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.0
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.1
+            },
+            "minecraft:geometry": "minecraft:geometry.cross",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "wild_sea_grape",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:redstone_conductivity": {
+                "allows_wire_to_step_down": false
+            },
+            "minecraft:flammable": {
+                "catch_chance_modifier": 30,
+                "destroy_chance_modifier": 60
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true,
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "block_filter": [
+                            {
+                                "tags": "query.any_tag('dirt')"
+                            },
+                            "gravel",
+                            "clay",
+                            "sand",
+                            "stone",
+                            "grass_block"
+                        ],
+                        "allowed_faces": [
+                            "up"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:movable": {
+                "movement_type": "popped"
+            },
+            "minecraft:random_offset": {
+                "x": {
+                    "steps": 0,
+                    "range": {
+                        "min": -4,
+                        "max": 4
+                    }
+                },
+                "z": {
+                    "steps": 0,
+                    "range": {
+                        "min": -4,
+                        "max": 4
+                    }
+                }
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -5,
+                    0,
+                    -5
+                ],
+                "size": [
+                    10,
+                    16,
+                    10
+                ]
+            },
+            "minecraft:loot": "loot_tables/oceanic_delight/crop/wild_sea_grape.json",
+            "minecraft:collision_box": false
+        }
+    }
+}

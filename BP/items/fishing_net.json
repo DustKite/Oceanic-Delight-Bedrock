@@ -1,0 +1,44 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 92
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "fishing_net"
+        }
+      },
+      "minecraft:damage": 5,
+      "minecraft:enchantable": {
+        "value": 4,
+        "slot": "axe"
+      },
+      "minecraft:cooldown": {
+        "category": "oceanic_delight:fishing_net_cooldown",
+        "duration": 0.0,
+        "type": "use"
+      },
+      "minecraft:use_modifiers": {
+        "movement_modifier": 0.6,
+        "use_duration": 2.6
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_tool"
+        ]
+      },
+      "minecraft:use_animation": "brush",
+      "minecraft:hand_equipped": true,
+      "minecraft:allow_off_hand": true
+    },
+    "description": {
+      "identifier": "oceanic_delight:fishing_net",
+      "menu_category": {
+        "category": "equipment"
+      }
+    }
+  }
+}

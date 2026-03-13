@@ -1,0 +1,290 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "oceanic_delight:stuffed_pufferfish",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "farmersdelight:food_block_stage": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.stuffed_pufferfish",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "stuffed_pufferfish",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -6.0,
+                            0.0,
+                            -6.0
+                        ],
+                        "size": [
+                            12.0,
+                            12.0,
+                            12.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6.0,
+                            0.0,
+                            -6.0
+                        ],
+                        "size": [
+                            12.0,
+                            12.0,
+                            12.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.stuffed_pufferfish_stage1",
+                    "minecraft:loot": "loot_tables/farmersdelight/empty.json",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "stuffed_pufferfish_stage1",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -6.0,
+                            0.0,
+                            -6.0
+                        ],
+                        "size": [
+                            12.0,
+                            10.0,
+                            12.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6.0,
+                            0.0,
+                            -6.0
+                        ],
+                        "size": [
+                            12.0,
+                            10.0,
+                            12.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.stuffed_pufferfish_stage2",
+                    "minecraft:loot": "loot_tables/farmersdelight/empty.json",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "stuffed_pufferfish_stage2",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -6.0,
+                            0.0,
+                            -6.0
+                        ],
+                        "size": [
+                            12.0,
+                            7.0,
+                            12.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6.0,
+                            0.0,
+                            -6.0
+                        ],
+                        "size": [
+                            12.0,
+                            7.0,
+                            12.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:food_block_stage') == 3",
+                "components": {
+                    "minecraft:geometry": "geometry.stuffed_pufferfish_stage3",
+                    "minecraft:loot": "loot_tables/farmersdelight/empty.json",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "stuffed_pufferfish_stage3",
+                            "render_method": "alpha_test",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -5.0,
+                            0.0,
+                            -5.0
+                        ],
+                        "size": [
+                            10.0,
+                            5.0,
+                            10.0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -5.0,
+                            0.0,
+                            -5.0
+                        ],
+                        "size": [
+                            10.0,
+                            5.0,
+                            10.0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "minecraft:geometry": "geometry.stuffed_pufferfish",
+            "oceanic_delight:blockfood": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5
+            },
+            "minecraft:destruction_particles": {
+                "texture": "oceanic_delight:stuffed_pufferfishh_particles"
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.5
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true,
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "stuffed_pufferfish",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -6.0,
+                    0.0,
+                    -6.0
+                ],
+                "size": [
+                    12.0,
+                    12.0,
+                    12.0
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -6.0,
+                    0.0,
+                    -6.0
+                ],
+                "size": [
+                    12.0,
+                    12.0,
+                    12.0
+                ]
+            }
+        }
+    }
+}
