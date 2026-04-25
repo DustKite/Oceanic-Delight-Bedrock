@@ -1,0 +1,48 @@
+export const CuttingBoardRecipes = [
+    {
+        ingredients: { item: "minecraft:sea_pickle" },
+        result: [{ item: "oceanic_delight:sea_pickle_slices", count: 2 }],
+        tool: { tag: "farmersdelight:is_knife" },
+        is_block_type: false,
+        sound: "use.wood"
+    },
+    {
+        ingredients: { item: "oceanic_delight:shrimp" },
+        result: [{ item: "oceanic_delight:shrimp_slices", count: 2 }],
+        tool: { tag: "farmersdelight:is_knife" },
+        is_block_type: false,
+        sound: "use.wood"
+    },
+    {
+        ingredients: { item: "oceanic_delight:sponge_cake" },
+        result: [{ item: "oceanic_delight:sponge_cake_slice", count: 4 }],
+        tool: { tag: "farmersdelight:is_knife" },
+        is_block_type: false,
+        sound: "use.wood"
+    },
+    {
+        ingredients: { item: "oceanic_delight:sea_pickle_roll" },
+        result: [{ item: "oceanic_delight:sea_pickle_roll_slice", count: 3 }],
+        tool: { tag: "farmersdelight:is_knife" },
+        is_block_type: false,
+        sound: "use.wood"
+    },
+    {
+        ingredients: { item: "oceanic_delight:fish_egg_roll" },
+        result: [{ item: "oceanic_delight:fish_egg_roll_slice", count: 3 }],
+        tool: { tag: "farmersdelight:is_knife" },
+        is_block_type: false,
+        sound: "use.wood"
+    },
+    {
+        ingredients: { item: "oceanic_delight:wild_sea_grape" },
+        result: [
+            { item: "oceanic_delight:sea_grape", count: 3 },
+            { item: "minecraft:kelp", count: 3 },
+            { item: "minecraft:kelp", count: 3, chance: 0.6 }
+        ],
+        tool: { tag: "farmersdelight:is_knife" },
+        is_block_type: false,
+        sound: "use.wood"
+    }
+];

@@ -1,5 +1,5 @@
 pack.name=海之乐事
-pack.description=适配1.21.100+，请置于主包上方加载. 本模组根据原Java版模组海之乐事在已获得原作者授权的情况下进行移植.
+pack.description=适配1.26.0+，请置于主包上方加载. 本模组根据原Java版模组海之乐事在已获得原作者授权的情况下进行移植.
 
 item.oceanic_delight:stuffed_pufferfish=填馅河豚
 item.oceanic_delight:sponge_cake=海绵蛋糕

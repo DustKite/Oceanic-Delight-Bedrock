@@ -1,4 +1,4 @@
-const cookingPotRecipes = [
+const CookingPotRecipes = [
     {
         "identifer": "oceanic_delight:fish_egg_noodle_soup",
         "tags": ["cooking_pot"],
@@ -64,7 +64,7 @@ const cookingPotRecipes = [
         "ingredients": [
             [
                 { "item": "oceanic_delight:glow_squid_tentacles" },
-                { "item": "crabbersdelight:raw_glow_squid_tentacles" },
+                { "item": "crabbersdelight:raw_glow_squid_tentacles" }
             ],
             { "item": "farmersdelight:tomato_sauce" },
             { "tag": "farmersdelight:is_onion" },
@@ -183,8 +183,8 @@ const cookingPotRecipes = [
         "ingredients": [
             { "tag": "farmersdelight:raw_shrimp" },
             [
-                { "item": "minecraft:fish" },
-                { "item": "minecraft:clownfish" },
+                { "item": "minecraft:cod" },
+                { "item": "minecraft:tropical_fish" },
                 { "item": "minecraft:salmon" },
                 { "tag": "farmersdelight:is_raw_fish" }
             ],
@@ -231,11 +231,11 @@ const cookingPotRecipes = [
             { "item": "minecraft:dried_kelp" },
             [
                 { "item": "farmersdelight:cod_slice" },
-                { "item": "minecraft:fish" }
-            ]
+                { "item": "minecraft:cod" }
+            ],
             [
-            { "item": "oceanic_delight:sea_pickle_slices" },
-            { "item": "minecraft:sea_pickle" }
+                { "item": "oceanic_delight:sea_pickle_slices" },
+                { "item": "minecraft:sea_pickle" }
             ]
         ],
         "result": {
@@ -261,4 +261,4 @@ const cookingPotRecipes = [
     }
 ];
 
-export { cookingPotRecipes };
+export { CookingPotRecipes };

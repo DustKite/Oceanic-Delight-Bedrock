@@ -31,7 +31,7 @@
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 0.1
             },
-            "minecraft:geometry": "geometry.sea_grape_plant_upeer",
+            "minecraft:geometry": "geometry.sea_grape_plant_upper",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "sea_grape_plant_upper",
