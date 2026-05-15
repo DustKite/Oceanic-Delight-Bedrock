@@ -148,7 +148,7 @@ const CookingPotRecipes = [
             { "item": "farmersdelight:tomato_sauce" }
         ],
         "result": {
-            "item": "oceanic_delight:pasta_with_eyeballs"
+            "item": "oceanic_delight:pasta_with_eye_balls"
         }
     },
     {
