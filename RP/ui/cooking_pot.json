@@ -164,6 +164,20 @@
                                         }
                                     },
                                     {
+                                        "container": {
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
+                                    },
+                                    {
                                         "result": {
                                             "offset": [
                                                 21,
@@ -440,20 +454,6 @@
                                                 7.5
                                             ],
                                             "texture": "textures/blocks/mushroom_brown"
-                                        }
-                                    },
-                                    {
-                                        "container": {
-                                            "type": "image",
-                                            "offset": [
-                                                6,
-                                                10.875
-                                            ],
-                                            "size": [
-                                                7.5,
-                                                7.5
-                                            ],
-                                            "texture": "textures/items/bowl"
                                         }
                                     },
                                     {
@@ -761,20 +761,6 @@
                                         }
                                     },
                                     {
-                                        "container": {
-                                            "type": "image",
-                                            "offset": [
-                                                6,
-                                                10.875
-                                            ],
-                                            "size": [
-                                                7.5,
-                                                7.5
-                                            ],
-                                            "texture": "textures/items/bowl"
-                                        }
-                                    },
-                                    {
                                         "result": {
                                             "offset": [
                                                 21,
@@ -1003,20 +989,6 @@
                                         }
                                     },
                                     {
-                                        "container": {
-                                            "type": "image",
-                                            "offset": [
-                                                6,
-                                                10.875
-                                            ],
-                                            "size": [
-                                                7.5,
-                                                7.5
-                                            ],
-                                            "texture": "textures/items/bowl"
-                                        }
-                                    },
-                                    {
                                         "result": {
                                             "offset": [
                                                 21,
@@ -1104,20 +1076,6 @@
                                                 7.5
                                             ],
                                             "texture": "textures/items/kelp"
-                                        }
-                                    },
-                                    {
-                                        "container": {
-                                            "type": "image",
-                                            "offset": [
-                                                6,
-                                                10.875
-                                            ],
-                                            "size": [
-                                                7.5,
-                                                7.5
-                                            ],
-                                            "texture": "textures/items/bowl"
                                         }
                                     },
                                     {
@@ -1231,20 +1189,6 @@
                                                 7.5
                                             ],
                                             "texture": "textures/items/kelp"
-                                        }
-                                    },
-                                    {
-                                        "container": {
-                                            "type": "image",
-                                            "offset": [
-                                                6,
-                                                10.875
-                                            ],
-                                            "size": [
-                                                7.5,
-                                                7.5
-                                            ],
-                                            "texture": "textures/items/bowl"
                                         }
                                     },
                                     {
@@ -1461,7 +1405,7 @@
                                                 7.5,
                                                 7.5
                                             ],
-                                            "texture": "textures/items/kelp"
+                                            "texture": "textures/items/dried_kelp"
                                         }
                                     },
                                     {

@@ -55,9 +55,6 @@ const CookingPotRecipes = [
     {
         "identifer": "oceanic_delight:glow_squid_stew",
         "tags": ["cooking_pot"],
-        "container": {
-            "item": "minecraft:bowl"
-        },
         "priority": 0,
         "time": 200,
         "experience": 1.0,
@@ -135,9 +132,6 @@ const CookingPotRecipes = [
     {
         "identifer": "oceanic_delight:pasta_with_eye_balls",
         "tags": ["cooking_pot"],
-        "container": {
-            "item": "minecraft:bowl"
-        },
         "priority": 0,
         "time": 200,
         "experience": 1.0,
@@ -174,9 +168,6 @@ const CookingPotRecipes = [
     {
         "identifer": "oceanic_delight:shrimp_stew",
         "tags": ["cooking_pot"],
-        "container": {
-            "item": "minecraft:bowl"
-        },
         "priority": 0,
         "time": 200,
         "experience": 1.0,
