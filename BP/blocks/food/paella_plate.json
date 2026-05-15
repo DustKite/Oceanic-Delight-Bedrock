@@ -273,7 +273,7 @@
             "minecraft:loot": "loot_tables/oceanic_delight/skillet.json",
             "oceanic_delight:blockfood": {},
             "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 0.5
+                "seconds_to_destroy": 1.0
             },
             "minecraft:destruction_particles": {
                 "texture": "oceanic_delight:paella_top"
