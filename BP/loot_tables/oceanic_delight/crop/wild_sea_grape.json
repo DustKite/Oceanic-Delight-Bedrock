@@ -34,6 +34,15 @@
           ],
           "type": "item",
           "name": "oceanic_delight:wild_sea_grape"
+        },
+        {
+          "type": "item",
+          "name": "oceanic_delight:sea_grape",
+          "functions": [
+            {
+              "function": "explosion_decay"
+            }
+          ]
         }
       ]
     }

@@ -7,7 +7,7 @@
     "version": [
       5,
       0,
-      4
+      5
     ],
     "min_engine_version": [
       1,
@@ -22,7 +22,7 @@
       "version": [
         5,
         0,
-        4
+        5
       ]
     },
     {
@@ -33,7 +33,7 @@
       "version": [
         5,
         0,
-        4
+        5
       ],
       "entry": "scripts/main.js"
     }
@@ -42,7 +42,7 @@
     "authors": [
       "Dust_Kite/Elaikes"
     ],
-    "license": "ARR",
+    "license": "https://github.com/DustKite/Oceanic-Delight-Bedrock?tab=License-1-ov-file",
     "product_type": "addon"
   },
   "dependencies": [
@@ -51,7 +51,7 @@
       "version": [
         5,
         0,
-        4
+        5
       ]
     },
     {

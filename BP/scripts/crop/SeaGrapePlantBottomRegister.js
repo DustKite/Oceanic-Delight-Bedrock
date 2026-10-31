@@ -8,7 +8,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
   if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { StartupEvent, system, GameMode } from "@minecraft/server";
-import { ItemUtil } from "../lib/ItemUtil";
 import { methodEventSub } from "../lib/eventHelper";
 class SeaGrapePlantBottomComponent {
   constructor() {
@@ -28,9 +27,6 @@ class SeaGrapePlantBottomComponent {
       system.runTimeout(() => {
         dimension.setBlockType(block.location, "oceanic_delight:sea_grape_plant_bottom");
         dimension.playSound("dig.grass", block.location);
-        if (player?.getGameMode() != GameMode.Creative) {
-          ItemUtil.clearItem(container, player.selectedSlotIndex, 1);
-        }
       });
     }
   }

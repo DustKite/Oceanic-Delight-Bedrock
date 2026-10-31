@@ -24,6 +24,7 @@ export class LootingRegister {
         if (!hurtEntity) return;
         if (!args.damageSource?.damagingEntity) return;
         const entity = args.damageSource.damagingEntity;
+        if (!entity) return;
         const equipment = entity.getComponent(EntityEquippableComponent.componentId);
         if (!equipment) return;
         const mainHand = equipment.getEquipmentSlot(EquipmentSlot.Mainhand);

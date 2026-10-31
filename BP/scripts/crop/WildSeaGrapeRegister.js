@@ -7,8 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
   if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { StartupEvent, system, GameMode } from "@minecraft/server";
-import { ItemUtil } from "../lib/ItemUtil";
+import { StartupEvent, system } from "@minecraft/server";
 import { methodEventSub } from "../lib/eventHelper";
 class WildSeaGrapeComponent {
   constructor() {
@@ -28,9 +27,6 @@ class WildSeaGrapeComponent {
       system.runTimeout(() => {
         dimension.setBlockType(block.location, "oceanic_delight:wild_sea_grape");
         dimension.playSound("dig.grass", block.location);
-        if (player?.getGameMode() != GameMode.Creative) {
-          ItemUtil.clearItem(container, player.selectedSlotIndex, 1);
-        }
       });
     }
   }
